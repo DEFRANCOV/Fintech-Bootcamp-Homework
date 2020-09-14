@@ -9,4 +9,4 @@ Blah blah blah
 
 [Subfolder3](Subfold3/)
 
-[SubFolder](Subfold4/)
+[SubFolder4](Subfold4/)
