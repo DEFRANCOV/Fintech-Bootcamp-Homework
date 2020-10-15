@@ -1,0 +1,6 @@
+FINANCIAL ANALYSIS
+----------------------------------------
+Total Number of Months: 86
+Total cumulative profit: $38382578
+Average change in monthly profit: $-2315.12
+Largest dencrease in monthly profit:  $(-2196167)
