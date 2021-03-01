@@ -1,7 +1,6 @@
-# Repository4
+# More Markdown Practice
 ## Purpose
 This is another practice repository
-Blah blah blah
 
 ![Car Image](https://cdn.pixabay.com/photo/2012/05/29/00/43/car-49278__340.jpg)
 
