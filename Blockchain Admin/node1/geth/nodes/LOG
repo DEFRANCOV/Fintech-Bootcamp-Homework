@@ -1,0 +1,66 @@
+=============== Feb 2, 2021 (EST) ===============
+19:13:02.437998 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:13:02.460903 db@open opening
+19:13:02.484222 version@stat F·[] S·0B[] Sc·[]
+19:13:02.494138 db@janitor F·2 G·0
+19:13:02.495134 db@open done T·34.2311ms
+=============== Feb 4, 2021 (EST) ===============
+19:14:03.352422 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:14:03.353419 version@stat F·[] S·0B[] Sc·[]
+19:14:03.353419 db@open opening
+19:14:03.353419 journal@recovery F·1
+19:14:03.357415 journal@recovery recovering @1
+19:14:03.489091 memdb@flush created L0@2 N·18225 S·325KiB "loc..seq,v18":"version,v1"
+19:14:03.493054 version@stat F·[1] S·325KiB[325KiB] Sc·[0.25]
+19:14:03.508013 db@janitor F·3 G·0
+19:14:03.508013 db@open done T·154.5941ms
+20:30:33.537990 memdb@flush N·37577 S·3MiB
+20:30:33.587919 memdb@flush created L0@6 N·37577 S·627KiB "loc..seq,v18249":"n:\xff..ong,d45851"
+20:30:33.587919 version@stat F·[2] S·952KiB[952KiB] Sc·[0.50]
+20:30:33.598473 memdb@flush committed F·1 T·60.4828ms
+20:30:33.601474 journal@remove removed @3
+20:31:03.535526 table@compaction L0·2 -> L1·0 S·952KiB Q·56026
+20:31:03.608329 table@build created L1@7 N·6068 S·253KiB "loc..seq,v18249":"version,v1"
+20:31:03.608329 version@stat F·[0 1] S·253KiB[0B 253KiB] Sc·[0.00 0.00]
+20:31:03.618434 table@compaction committed F-1 S-699KiB Ke·0 D·49734 T·82.9086ms
+20:31:03.633264 table@remove removed @6
+21:29:33.540800 memdb@flush N·36306 S·3MiB
+21:29:33.617524 memdb@flush created L0@9 N·36306 S·565KiB "n:\x00..ing,v74336":"n:\xff..ong,v83626"
+21:29:33.617524 version@stat F·[1 1] S·818KiB[565KiB 253KiB] Sc·[0.25 0.00]
+21:29:33.626587 memdb@flush committed F·1 T·85.7872ms
+21:29:33.628521 journal@remove removed @5
+21:30:40.144181 table@compaction L0·1 -> L1·1 S·818KiB Q·92792
+21:30:40.206054 table@build created L1@10 N·9143 S·373KiB "loc..seq,v18249":"version,v1"
+21:30:40.206054 version@stat F·[0 1] S·373KiB[0B 373KiB] Sc·[0.00 0.00]
+21:30:40.212037 table@compaction committed F-1 S-445KiB Ke·0 D·33231 T·67.8562ms
+21:30:40.213034 table@remove removed @9
+21:30:40.213034 table@remove removed @7
+22:20:40.157341 db@close closing
+22:20:40.158345 db@close done T·1.0044ms
+=============== Feb 4, 2021 (EST) ===============
+22:24:09.813551 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+22:24:09.814547 version@stat F·[0 1] S·373KiB[0B 373KiB] Sc·[0.00 0.00]
+22:24:09.814547 db@open opening
+22:24:09.814547 journal@recovery F·1
+22:24:09.817538 journal@recovery recovering @8
+22:24:10.288655 memdb@flush created L0@11 N·31074 S·498KiB "n:\x00..:v4,v123125":"n:\xff..ong,v110679"
+22:24:10.291650 version@stat F·[1 1] S·871KiB[498KiB 373KiB] Sc·[0.25 0.00]
+22:24:10.314587 db@janitor F·5 G·1
+22:24:10.315583 db@janitor removing table-2
+22:24:10.316614 db@open done T·502.0666ms
+22:24:25.536151 table@compaction L0·1 -> L1·1 S·871KiB Q·123235
+22:24:25.621916 table@build created L1@14 N·11929 S·481KiB "loc..seq,v18249":"version,v1"
+22:24:25.621916 version@stat F·[0 1] S·481KiB[0B 481KiB] Sc·[0.00 0.00]
+22:24:25.630023 table@compaction committed F-1 S-390KiB Ke·0 D·28288 T·93.8721ms
+22:24:25.630892 table@remove removed @10
+23:36:40.344352 memdb@flush N·36713 S·3MiB
+23:36:40.407882 memdb@flush created L0@16 N·36713 S·582KiB "loc..seq,v123193":"n:\xff..ail,v141790"
+23:36:40.407882 version@stat F·[1 1] S·1MiB[582KiB 481KiB] Sc·[0.25 0.00]
+23:36:40.445618 memdb@flush committed F·1 T·101.2665ms
+23:36:40.448572 journal@remove removed @12
+23:37:38.012801 table@compaction L0·1 -> L1·1 S·1MiB Q·160499
+23:37:38.084591 table@build created L1@17 N·15514 S·626KiB "loc..seq,v123193":"version,v1"
+23:37:38.084591 version@stat F·[0 1] S·626KiB[0B 626KiB] Sc·[0.00 0.01]
+23:37:38.087270 table@compaction committed F-1 S-437KiB Ke·0 D·33128 T·74.4692ms
+23:37:38.088302 table@remove removed @16
+23:37:38.088302 table@remove removed @14
