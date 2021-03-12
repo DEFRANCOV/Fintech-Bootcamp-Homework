@@ -2,7 +2,7 @@
 
 ## TIME SERIES FORECASTING
 
-* The accompanying code file is Val_time_series_analysis.ipynb.
+* The accompanying code file is Val_time_series_analysis.ipynb.   You can look at it [here](Val_time_series_analysis.ipynb)
 
 - Without the use of any mathematical tools, and based upon a pure visual observation, we can see the ¥ strengthened against the $C in the early to mid 1990s, with a modest weakening from 1996 to 2008, and then a “flattish” trend from 2008 to present.
 
@@ -36,7 +36,7 @@
 
 ## REGRESSION ANALYSIS
 
-- The accompanying code file is Val_regression_analysis.ipynb.
+- The accompanying code file is Val_regression_analysis.ipynb. You can look at it [here](Val_regression_analysis.ipynb)
 - We import LinearRegression from sklearn library.
 - Within the original dataframe (from Time Series), we create a column called “Return”, which employs the pct_change function on the Price column and removes NAs and Infinities.    
 - We then create another column, “Lagged_Return” which employs the shift function on “Return”.   In this case, the shift function takes the prior value of Return.  Ultimately, we will attempt to see if there is any meaningful relationship with Return and Lagged_Return.
